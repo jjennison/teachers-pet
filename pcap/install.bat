@@ -9,5 +9,5 @@ CD %USERPROFILE%
 CD Downloads
 DIR /p
 PAUSE
-Echo360PersonalCapture*.exe --mode unattended --debuglevel 4 --pre "C:\ProgramData\Echo360\PersonalCapture" --prefix "C:\Program Files\Echo360\Personal Capture"
+Echo360PersonalCaptureInstaller.exe --mode unattended --debuglevel 4 --pre "C:\ProgramData\Echo360\PersonalCapture" --prefix "C:\Program Files\Echo360\Personal Capture"
 PAUSE
