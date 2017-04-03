@@ -13,4 +13,8 @@ cd C:\Program Files
 rd Echo360 /s/q
 cd C:\ProgramData
 rd Echo360 /s/q
+reg delete "HKLM\SOFTWARE\ECHO360" /f
+@ECHO --------
+@ECHO - DONE -
+@ECHO --------
 PAUSE
