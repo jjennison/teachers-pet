@@ -9,7 +9,7 @@ CD %USERPROFILE%
 CD Downloads
 DIR /w/p
 PAUSE
-Echo360ClassroomCaptureForWindows.exe --mode unattended --UninstallPreviousVersions true --debuglevel 4 --pre "C:\ProgramData\Echo360" --prefix "C:\Program Files\Echo360"
+Echo360ClassroomCaptureForWindows.exe --mode unattended --UninstallPreviousVersions true --debuglevel 4 --pre "C:\ProgramData\Echo360\Client" --prefix "C:\Program Files\Echo360"
 @ECHO --------
 @ECHO - DONE -
 @ECHO --------
