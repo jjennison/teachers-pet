@@ -5,7 +5,7 @@ CLS
 @ECHO ===            by Jaike Jennison             ===
 @ECHO ================================================
 @ECHO OFF
-"C:\Program Files\Echo360\Personal Capture\Client\Uninstall_Echo360 Personal Capture.exe"
+"C:\Program Files\Echo360\Personal Capture\Uninstall_Echo360 Personal Capture.exe"
 PAUSE
 cd %LOCALAPPDATA%
 rd Echo360 /s/q
